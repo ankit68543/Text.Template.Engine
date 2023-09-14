@@ -14,6 +14,7 @@ namespace VAO.Consumer
                 Id = 1,
                 Name = "Sports Equipement",
                 TotalPrice = 100,
+                Discount=5,
                 CustomerAddress = new Address
                 {
                     City = "Delhi",
@@ -74,6 +75,7 @@ namespace VAO.Consumer
             public decimal TotalPrice { get; set; }
             public List<Product> Products { get; set; }
             public Address CustomerAddress { get; set; }
+            public decimal Discount { get; set; }
 
         }
 
